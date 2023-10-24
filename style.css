@@ -17,8 +17,12 @@ body {
   color: #A54328;
   font-size: 1.6rem;
 }
-/* Content-box mantém fiel as propriedades da largura e altura da caixa, nao deixando o 
+/* Content-box mantém fiel as propriedades da largura e da altura da caixa, nao deixando o 
 margin e o padding afetar o conteúdo */
+
+/* margin-inline ele pega um elemento e cria um espaçamento 
+entre o elemento da esquerda e o elemento da direita */
+
 main {
   max-width: 32rem;
   margin-inline: auto;
@@ -31,6 +35,10 @@ main {
 
 /* Width 100% prioriza o ajusta da largura da imagem de acordo com a largura da div se caso a altura precise ser ajustada para conter 
 na div, irá também alterar a altura */
+
+/* margin-block ele pega um elemento e cria um espaçamento 
+entre o elemento de baixo e o elemento de cima */
+
 img {
   width: 100%;
   margin-block: 3.2rem;
@@ -68,6 +76,48 @@ ul {
   margin-bottom: 2.4rem;
 }
 
-@media (min-width: 770px) {
+/*---------- Desktop Layout --------------*/
+
+@media (min-width: 1120px) {
+  /* fit-content ele encaixa o elemento no conteúdo, ou seja, no tamanho da div */
   
+  body {
+    background-image: url(assets/background-img.png);
+    background-size: cover;
+  }
+  
+  main {
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 16rem;
+    padding: 9rem 6rem;
+  }
+
+  .recipe {
+    max-width: 43.5rem;
+  }
+
+  .ingredients {
+    max-width: 52.5rem;
+  }
+
+  h1,h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  p, li, strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
 }
+
+/* opcional: em layouts com muitos breakpoints o ideal é utilizar
+clamp(min, ideal, alto) direto nas definições de font-size, line-height
+para deixa visivelmente mais flexível */
