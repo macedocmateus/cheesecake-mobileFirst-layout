@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+:root {
+  font-family: 'source serif pro',sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  color: #A54328;
+  font-size: 1.6rem;
+}
+/* Content-box mantém fiel as propriedades da largura e altura da caixa, nao deixando o 
+margin e o padding afetar o conteúdo */
+main {
+  max-width: 32rem;
+  margin-inline: auto;
+  padding: 5.6rem 4rem;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+/* Width 100% prioriza o ajusta da largura da imagem de acordo com a largura da div se caso a altura precise ser ajustada para conter 
+na div, irá também alterar a altura */
+img {
+  width: 100%;
+  margin-block: 3.2rem;
+}
+
+button {
+  font-family: 'source serif 4',sans-serif;
+  color: white;
+  background-color: #A54328;
+  border: 0;
+  padding: .8rem 1.2rem;
+  border-radius: .6rem;
+  margin-top: 1.8rem;
+}
+
+h1, h2 {
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+}
+
+h2 {
+  margin-bottom: 3.2rem;
+}
+
+p, li, strong {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+ul, ol {
+  padding-left: 2.4rem;
+}
+
+ul {
+  margin-bottom: 2.4rem;
+}
