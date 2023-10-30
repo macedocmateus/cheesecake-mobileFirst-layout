@@ -26,11 +26,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Cheesecake é uma pagina de uma receita de cheesecake de frutas em que os usuários podem consultar em dispositivos desktops e móveis. Clique [aqui](https://cheesecake-mobile-first-layout.vercel.app/){:target="_blank"} para testar a página.
+O Cheesecake é uma pagina de uma receita de cheesecake de frutas em que os usuários podem consultar em dispositivos desktops e móveis. Clique [aqui](https://cheesecake-mobile-first-layout.vercel.app/){target="_blank"} para testar a página.
 
 ## 🎨 Layout
 
-Clique [aqui](https://www.figma.com/file/XdxR2LxDrKLkdfc1mRUIv3/Cheesecake-%E2%80%A2-Projeto-Explorer-Community?type=design&is-community-duplicate=1&fuid=){:target="_blank"} para conhecer a prototipagem do projeto.
+Clique [aqui](https://www.figma.com/file/XdxR2LxDrKLkdfc1mRUIv3/Cheesecake-%E2%80%A2-Projeto-Explorer-Community?type=design&is-community-duplicate=1&fuid=){target="_blank"} para conhecer a prototipagem do projeto.
 <br>
 <br>
 <br>
