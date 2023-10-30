@@ -13,7 +13,7 @@ Projeto pessoal utilizando conceitos de mobile first e responsividade.
 <br>
 
 <p align="center">
-  <img alt="Cheesecake de frutas" src="./Assets/capa-readme.jpg" width="100%">
+  <img alt="Cheesecake de frutas" src="./assets/capa-readme.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
